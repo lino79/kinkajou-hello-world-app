@@ -1,0 +1,23 @@
+{
+	"name": "kinkajou-hello-world-app",
+	"version": "0.0.1-alpha.1",
+	"private": true,
+	"description": "A simple Hello World app",
+	"scripts": {
+		"build": "babel *.jsx --out-dir . --source-maps"
+	},
+	"author": "Fabio Contigiani <fabio.contigiani@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"requirejs": "2.3.6",
+		"@kinkajou/kinkajou": "^0.0.1-alpha.1"
+	},
+	"devDependencies": {
+		"@kinkajou/tools": "^0.0.1-alpha.1",
+		"@babel/cli": "^7.0.0",
+		"@babel/core": "^7.0.0",
+		"@babel/plugin-transform-modules-amd": "^7.0.0",
+		"@babel/plugin-transform-react-jsx": "^7.0.0",
+		"@babel/preset-env": "^7.0.0"
+	}
+}
